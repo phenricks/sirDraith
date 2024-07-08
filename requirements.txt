@@ -1,0 +1,5 @@
+fastapi~=0.111.0
+uvicorn
+discord.py
+python-dotenv~=1.0.1
+discord~=2.3.2
