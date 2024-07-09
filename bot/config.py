@@ -5,7 +5,8 @@ load_dotenv()
 
 
 class Settings:
-    DISCORD_TOKEN: str = os.getenv('DISCORD_TOKEN')
+    TOKEN: str = os.getenv('TOKEN')
+    PREFIX: str = os.getenv('PREFIX')
 
 
 settings = Settings()
